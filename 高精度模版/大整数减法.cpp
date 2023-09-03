@@ -28,7 +28,7 @@ int main()
         c[i] = a[i] - b[i];
     }
     //减法用删除前导零
-    int i = len_c - 1;
+    int i = len_c;
     while(!c[i] && i > 1)
         i--;
     for(; i > 0; i--)
