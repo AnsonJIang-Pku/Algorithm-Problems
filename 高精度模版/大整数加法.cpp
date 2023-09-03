@@ -20,7 +20,7 @@ int main()
         b[len_b - i] = n[i] - '0';
     //进行竖式加法
     len_c = max(len_a, len_b) + 1;
-    for(int i = 0; i < len_c; i++){
+    for(int i = 1; i <= len_c; i++){
         c[i] += a[i] + b[i];
         c[i+1] = c[i] / 10;
         c[i] %= 10;
